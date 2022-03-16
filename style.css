@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    color: #BBBBBB;
+}
+
+h3:hover {
+    color: #DDDDDD;
+}
+
+h2 {
+    color: #EEEEEE;
+}
+
+a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+a:hover {
+    color: #DDDDDD;
+}
+
+h4 {
+    line-height: 170%;
+}
+
+.highlighted {
+    color: #EEEEEE;
+}

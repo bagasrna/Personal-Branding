@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="website2.css">
+	<link rel="icon" href="https://i.imgur.com/ib6waVz.png" sizes="16x16" type="image/png">
+	<title>aestaeric.</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+   	<script src="script.js"></script>
+</head>
+<body>
+	<div class="pageone" id="home">
+		<div class="navbar">
+			<nav id="navbar">
+				<label for="toggle"><i class="fas fa-bars"></i></label>
+				<input type="checkbox" id="toggle" onclick="menuopen()">
+				<div class="navigation">
+					<div>
+						<a href="#home" class="logo">aestaeric.</a>
+					</div>
+					<div class="menu" id="menu">
+						<a href="#about" class="nav-icon" id="nav-icon" >about</a> <a href="#skills" class="nav-icon" id="nav-icon">skills</a> <a href="#examples" class="nav-icon" id="nav-icon">examples</a> <a href="#contact" class="nav-icon" id="nav-icon">contact</a> 
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class ="main">
+			<span class="bold-text">Hi, I'm Bagas.</span><br>
+			<div class="subheading-text">Programmer, Designer and Language Enthusiast.</div>
+			<div class="findmore subheading-text"><a href="#about" class="subheading-text link-more">find out more <i class="fas fa-arrow-right"></i></a></div>
+			</div>
+		</div>
+	</div>
+	<div class ="pagetwo" id="about">
+		<div class="grid-two">
+			<div class="center-align"> <img src="https://i.imgur.com/FTzJ10K.png" class="macbook-mockup"></div>
+			<div class="about-me">
+				<div class="bold-text right-align skills-title">about.</div>
+				<div class="about-me-text justify-align">Seventeen year old aspiring software engineer. I am a part of Shopify's Dev Degree Program, an innovative workplace integrated approach that combines specific work-integrated learning techniques at Shopify with a BCS Honours degree from Carleton University for greater impact in a computer science education. Also a huge language nerd, currently learning German and Korean.
+				</div>
+				<div class="skillset-link center-align"><a href="#skills" class="skillset-checkout bold-text link-more">or, check out my skillsets <i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pagethree" id="skills">
+		<div class="container-page3">
+			<div class="skills-title bold-text">what i can do.</div>
+		<div class="skills-grid center-align">
+			<div class="grid-column"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i><br><span class="skill-title-text bold-text">frontend</span><div class="sizeonetext justify-align">i have good experience in all three, which allow me to make dynamic and eye pleasing sites. this site was made entirely by html, css and javascript.</div></div>
+			<div class="grid-column"><i class="fab fa-python"></i> <img src="https://i.imgur.com/QInaahA.png" style="width:3.2rem"> <i class="fab fa-git"></i><br><span class="skill-title-text bold-text">backend</span><div class="sizeonetext justify-align">in school, i learn c++. i use python for personal endeavors. currently working on a whatsapp web reply bot. hope to work with ai in the future.</div></div>
+			<div class="grid-column"><div class="bold-text twopointfivesize"><img src="https://i.imgur.com/i9DQLIr.png" style="width:2.95rem"> <img src="https://i.imgur.com/U5kIJ1T.png" style="width:2.95rem"></div><div class="skill-title-text bold-text top-margin-design">design</div><div class="sizeonetext justify-align top-margin-text">learned these as an amateur cover & trailer designer in the multimedia forum of <i>wattpad</i>. now i use ps to design websites before coding.</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="examples" id="examples">
+		<div class="examples-grid">
+			<div class="exgridbox side-border">
+				<span class="grid-title">WEBSITES</span><br><br>
+				these are full-fledged websites i've designed using html, css, javascript, bootstrap.<br><br>
+				<a href="construction.html" class="exlink">click here</a>
+			</div>
+			<div class="exgridbox side-border">
+				<span class="grid-title">TUMBLR</span><br><br>
+				these are themes that i made for tumblr blogs specifically, especially the studyblr community.<br><br>
+				<a href="construction.html" class="exlink">click here</a>
+			</div>
+			<div class="exgridbox side-border">
+				<span class="grid-title">PHOTOSHOP</span><br><br>
+				i use photoshop to make my website mockups as well as design projects like logos or manipulations.<br><br>
+				<a href="https://www.behance.net/aestaeric/" class="exlink">click here</a>
+			</div>
+			<div class="exgridbox">
+				<span class="grid-title">GITHUB</span><br><br>
+				all of my projects - ones including python and c++ codes, can be seen on my github profile.<br><br>
+				<a href="https://github.com/ksp2001" class="exlink">click here</a>
+			</div>
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<div class="contact-div">
+			<span class="skills-title bold-text">contact.</span>
+			<form name="contact" method="POST" data-netlify="true">
+				<p>
+				    EMAIL* <br><input type="email" name="email" required/>
+				</p>
+				<p>
+				    MESSAGE* <br><textarea name="message" required></textarea>
+				</p>
+				<div class="center-align">
+				    <button type="submit" class="buttoned">SEND</button>
+				</div>
+			</form>	
+			<div class="alt-contact"><i class="fas fa-envelope"></i> ketki.skpanse@gmail.com</div>
+		<div class="footer">
+		<span class="word-spacing"><a href="https://twitter.com/aestaeric" class="footer-text"><i class="fab fa-twitter"></i></a> <a href="https://www.instagram.com/aestaeric/" class="footer-text"><i class="fab fa-instagram"></i></a> <a href="https://github.com/ksp2001" class="footer-text"><i class="fab fa-github-square"></i></a> </span>&copy; aestaeric 2019
+	</div></div></div>
+</body>
+</html>

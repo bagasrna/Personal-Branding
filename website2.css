@@ -1,0 +1,676 @@
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+	background:#fff;
+}
+/* this is the css for the first page, ie the home page */
+.pageone {
+	background: #fff;
+	background: url("https://i.imgur.com/R9hzuLw.png");
+	font-family: century gothic;
+	background-repeat: no-repeat;
+	margin:0;
+	height:100vh;
+}
+
+/* dealing with the navigation bar :: making its position fixed using the navbar class that is applied to the div
+that surrounds the whole navbar; using the navigation class to create a grid divided into two equal parts, one for logo
+other for the menu of nav icons. */
+nav {
+	margin-top:-1rem;
+	padding-top:2rem;
+}
+.navbar {
+	position:fixed;
+	margin-top:0;
+	width:100%;
+}
+
+.navigation {
+	margin:1rem 3rem 0 3rem;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	height:3rem;
+	padding:0.3rem;
+}
+
+.logo {
+	font-size:2.7rem;
+	color:#fff;
+	letter-spacing:-0.09rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo:hover {
+	font-size:2.8rem;
+	transition: 0.1s;
+}
+
+.menu {
+	padding-top: 0.7rem;
+	word-spacing:1.5rem;
+	text-align: right;
+}
+.nav-icon {
+	font-size:1.6rem;
+	color:#fff;
+	text-decoration: none;
+}
+
+.nav-icon:hover {
+	color:#ceadc7;
+}
+
+#toggle {
+	display:none;
+}
+
+label {
+	display:none;
+	float:right;
+	margin:1.3rem 2rem 0 0;
+	font-size: 1.4rem;
+	color:#fff;
+}
+label:hover {
+	color:#ceadc7;
+	cursor: pointer;
+}
+/* according to javascript, the class scroll gets added to nav. according to scroll, this is what happens. */
+.scroll {
+	background-color: rgba(92,80,111, 0.7);
+	padding-top:0;
+	transition: 0.5s;
+}
+
+/*nav bar ended*/
+
+
+/* changing the scrollbar to make the design neater*/
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background :#0c152f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ceadc7;
+}
+
+/* scrollbar end*/
+
+/* main content of the home page */
+.main {
+	padding-top:16rem;
+	font-size:7.9rem;
+	color:#fff;
+	text-align: center;
+	letter-spacing:-0.09rem;
+}
+
+
+.subheading-text {
+	margin-top:-1rem;
+	font-size:1.75rem;
+	letter-spacing:0.06rem;
+	color:#fff;
+	text-decoration: none;
+}
+
+a.subheading-text:hover {
+	color:#ceadc7;
+}
+
+.findmore {
+	padding-top:7rem;
+}
+
+/* main content home page end */
+
+/* page one end */
+
+/* page two, ie, about page begins */
+
+.pagetwo {
+	background: #fff;
+	font-family: century gothic;
+	margin:0 0;
+	height:100vh;
+	width:100%;
+}
+
+.grid-two {
+	padding-top:2.7rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.macbook-mockup {
+	padding-top:13rem;
+	width:36rem;
+}
+
+.about-me {
+	padding: 11.7rem 8rem 0 3rem;
+	font-size:3rem;
+	color:#161516;
+}
+
+.about-me-text {
+	font-family:georgia;
+	padding-top:0.8rem;
+	font-size:1.3rem;
+	line-height:1.6rem;
+	text-align: justify;
+	text-decoration: none;
+	letter-spacing: -0.01rem;
+	opacity: 0.9;
+}
+
+.designs-link:hover {
+	color:#161516;
+}
+
+.skillset-link {
+	padding-top:1rem;
+}
+
+.skillset-checkout {
+	font-size:1.8rem;
+	text-decoration: none;
+	color:#161516;
+}
+
+.skillset-checkout:hover {
+	color:#ceadc7;
+}
+
+/* page two over */
+
+/* page three */
+
+.pagethree {
+	width:100%;
+	height:100vh;
+	background:#fff;
+	background-image:url('https://i.imgur.com/l5lCIgb.png');
+	background-repeat: no-repeat;
+}
+
+.container-page3 {
+	padding:16rem 7rem 0 12rem;
+}
+
+.skills-title {
+	font-family: century gothic;
+	font-size:3rem;
+	color: #cd87bf;
+}
+
+.skills-grid {
+	font-family:century gothic;
+	font-size:3.2rem;
+	padding:1rem 17rem 0 0;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	color:#151615;
+}
+
+.skill-title-text {
+	font-size:1.5rem;
+}
+
+.twopointfivesize {
+	font-size:2.4rem;
+}
+
+.sizeonetext {
+	font-family: calibri;
+	font-size: 1rem;
+	line-height:1.1rem;
+}
+
+.grid-column {
+	padding:1rem;
+}
+
+.top-margin-design {
+	padding-top:1.9rem;
+}
+
+.top-margin-text {
+	padding-top:0.7rem;
+}
+
+/* page three end */
+
+/* page four : examples */
+
+.examples {
+	width:100%;
+	height:50vh;
+	background:#fff;
+	font-family: century gothic;
+}
+
+.exgridbox {
+	padding:0.5rem;
+}
+.examples-grid {
+	padding:4rem 8rem 0 8rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	height:45%;
+	text-align:center;
+	font-size:0.9rem;
+}
+
+.grid-title {
+	font-weight:bold;
+	font-size:1.3rem;
+
+	}
+
+.side-border {
+	border-right:solid #ceadc7 1px;
+}
+
+.exlink {
+	font-weight:bold;
+	font-size:1.1rem;
+	color:#cd87bf;
+	text-decoration: none;
+}
+
+.exlink:hover {
+	color:#151615;
+
+}
+
+/* end page four */
+
+/* page five : contact; */
+
+.contact {
+	width:100%;
+	height:50vh;
+	background:#e6e6e6;
+	background-image:url("https://i.imgur.com/1E8j0mm.png");
+	background-repeat: no-repeat;
+}
+
+.contact-div {
+	padding:2rem 10rem 0 36rem;
+}
+
+form {
+	font-family: century gothic;
+	font-size:0.9rem;
+	font-weight:bold;
+}
+
+textarea {
+	height:3rem;
+	width:100%;
+}
+
+input {
+	width:100%;
+	height:1.3rem;
+}
+
+.buttoned {
+	background:#151615;
+	color:#fff;
+	padding:0.7rem;
+	width:8rem;
+	border-radius: 1.4rem;
+	font-family: century gothic;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:0.95rem;
+	border-style:solid;
+}
+
+.buttoned:hover {
+	background: #cd87bf;
+}
+textarea {
+	vertical-align: top;
+}
+
+.alt-contact {
+	display:none;
+	font-family: century gothic;
+	font-size:80%;
+}
+
+/* footer */
+.footer {
+	height:2rem;
+	padding:1rem 0 0 0;
+	color:#151615;
+	font-size:0.94rem;
+	font-family:century gothic;
+	text-align:center;
+}
+
+.footer-text {
+	color:#151615;
+	font-size:1.3rem;
+}
+
+/* end footer and page 5 */
+
+/* these are used throughout the website */
+
+.word-spacing {	
+	word-spacing:0.4rem;
+}
+
+.bold-text {
+	font-weight:bold;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.pink-text {
+	color:#ceadc7;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.justify-align {
+	text-align: justify;
+}
+
+/* MAKING THE SITE RESPONSIVE :: MEDIA QUERIES; */
+/* starting with different resolutions for laptops, because my website was coded for 1366x768 (the most common resolution)
+however, I want to render it for other common resolutions as well*/
+@media (min-width: 1390px) {
+
+	/*page one*/
+	.navigation {
+		height:3.7rem;
+	}
+	.logo {
+		font-size:3.2rem;
+	}
+	.nav-icon {
+		font-size:2.1rem;
+	}
+	.pageone {
+		background: url("https://i.imgur.com/EOImN0X.png");
+	}
+	.main {
+		font-size:10rem;
+		padding-top: 24rem;
+	}
+	.subheading-text {
+		font-size:2.25rem;
+	}
+
+	/*page two*/
+	.macbook-mockup {
+		width:44rem;
+		padding-top: 16rem;
+	}
+
+	.about-me {
+		padding: 16rem 12rem 0 3rem;
+	}
+
+	.about-me-text {
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+		font-family: times new roman;
+	}
+	.skillset-checkout {
+	font-size:2.1rem; }
+
+	.skills-title {
+		font-size:3.9rem;
+	}
+
+	/* page three */
+	.pagethree {
+		background: url("https://i.imgur.com/FCpcjsv.png");
+	}
+	.container-page3 {
+		padding:24rem 18rem 0 18rem;
+	}
+	.sizeonetext {
+	font-family: calibri;
+	font-size: 1.4rem;
+	line-height:1.5rem;
+	}
+	.skill-title-text {
+	font-size:1.9rem;
+	}
+
+	/* page four */
+	.examples-grid {
+		padding:9rem 14rem 0 14rem;
+		font-size: 1.4rem;
+	}
+	.exgridbox {
+		padding:1.4rem;
+	}
+
+	.grid-title {
+		font-size: 1.7rem;
+		font-family:calibri;
+	}
+
+	.exlink {
+		font-size:1.6rem;
+	}
+
+	/* page five */
+	.contact {
+		background: url("https://i.imgur.com/DGTzrDj.png");
+	}
+	.contact-div {
+		padding:6rem 16rem 0 44rem;
+	}
+
+	form {
+		font-size:1.3rem;
+	}
+
+	textarea {
+		height:3rem;
+		width:100%;
+	}
+
+	input {
+		width:100%;
+		height:1.8rem;
+	}
+
+	.buttoned {
+		padding:1rem;
+		width:11rem;
+		border-radius: 1.9rem;
+		font-size:1.4rem;
+	}
+
+	.buttoned:hover {
+		background: #cd87bf;
+	}
+	textarea {
+		vertical-align: top;
+	}
+	.footer {
+		font-size: 1.3rem;
+	}
+
+}
+
+@media (max-width:902px) {
+ .about-me {
+	padding: 11.7rem 0 0 3rem;
+	}
+
+label {
+	display: block;
+}
+.navigation {
+	display:block;
+	margin: 1rem 0 0 3rem;
+}
+.menu {
+	display:none;
+	background:rgba(206, 173, 199, 0.6);
+	width:7rem;
+	float:right;
+	padding:0.5rem;
+	text-align:right;
+	margin: -1rem 3rem 0 0;
+}
+.menu a {
+	display:block;
+	font-size:1.4rem;
+	font-family:century gothic;
+}
+.menu a:hover {
+	color:#ceadc7;
+}
+.main {
+	font-size:7rem;
+	line-height:6rem;
+}
+.subheading-text {
+	font-size: 1.05rem;
+	line-height:1.7rem;
+}
+.pagetwo {
+	height:100%;
+	width:100%;
+}
+.grid-two {
+	margin:1rem 0;
+	grid-template-columns: 1fr;
+	padding:0 2rem 0 2rem;
+}
+.macbook-mockup {
+	padding-top:6rem;
+}
+
+.about-me {
+	padding: 4rem 3rem 0 3rem;
+	font-size:3rem;
+	color:#161516;
+}
+
+.pagethree {
+	height:100%;
+	}
+.container-page3 {
+	padding: 10rem 0rem 0 0;
+	text-align: center;
+	}
+.skills-grid {
+	grid-template-columns: 1fr;
+	padding:0;
+	}
+.sizeonetext {
+	display:none;
+}
+.skill-title-text {
+	display:none;
+}
+.examples-grid {
+	grid-template-columns: 1fr;
+	padding:4rem 8rem 4rem 8rem;
+	}
+.side-border {
+	border:none;
+}
+.examples {
+	height:100%;
+	margin:0;
+}
+.contact {
+	padding:0;
+	height:100%;
+	background:#f6f6f6;
+}
+.contact-div {
+	padding:1rem;
+	text-align:center;
+}
+
+form {
+	display:none;
+}
+.alt-contact {
+	display:block;
+}
+
+}
+
+@media (max-width:610px) {
+ .about-me {
+	padding: 5rem 0 0 0;
+	}
+.macbook-mockup {
+	width:16rem;
+	}
+
+.skills-title {
+	font-size:2rem;
+}
+.examples-grid {
+	padding:2rem;
+	}
+.logo {
+	font-size:2.3rem;
+}
+.subheading-text {
+	padding-top: 1rem;
+	font-size:15%;
+	line-height:1rem;
+}
+.main {
+	font-size:5rem;
+	line-height:4rem;
+}
+.link-more {
+	line-height:4rem;
+	font-size:0.7rem;
+}
+.about-me-text {
+	font-family:cambria;
+	font-size:0.9rem;
+	line-height:0.9rem;
+	}
+.pagethree {
+	background:#f6f6f6;
+		}
+.container-page3 {
+	padding: 4rem 0rem 0 0; 
+ }
+ .footer {
+ 	font-size:80%;
+ }
+ .footer-text {
+ 	font-size:80%;
+ }
+}
+
+
+/* after 540, remove subheading-text
+after 1060 remove check out my skillsets link
+after 610 remove paddings in page 2
